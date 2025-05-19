@@ -1,0 +1,82 @@
+<!-- EJERCITACIÓN HTML
+ EJERCICIO 1
+1. Abre un editor de código  o un IDE de tu elección 
+    (Codepen, CodeSandBox, Sublime Text)  o algún otro de tu elección.
+
+2. Crea un  nuevo archivo HTML y guárdalo con el nombre que desees, 
+    por ejemplo, "index.html".
+
+3. Comienza por agregar la estructura básica de HTML5 utilizando la etiqueta 
+    <!DOCTYPE html> y las etiquetas <html>, <head> y <body>. Dentro del <head>, puedes agregar un título para tu página usando la etiqueta <title>.
+
+ EJERCICIO 2
+4. Dentro del <body>, puedes utilizar etiquetas semánticas para estructurar 
+    el contenido de la página. 
+    Por ejemplo, puedes usar la etiqueta<header> para el encabezado de tu página
+    y <nav> para la barra de navegación.
+
+5. Fijáte que estamos utilizando las etiquetas de lista desordenada <ul></ul> 
+    y los ítems de la lista con <li></li>.
+
+6.Las etiquetas de enlace <a></a> cuyo atributo principal es href por ahora
+    no llevan a nunguna parte.
+
+ EJERCICIO 3
+5. Agrega más secciones utilizando etiquetas semánticas apropiadas como 
+    <main> para contenido principal de la página, <article> para artículos individuales,
+    <section> para secciones adicionales, <aside> para contenido relacionado 
+    pero no central, etc.
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página de prueba</title>
+</head>
+
+<body>
+    <header>
+        <h1>Mi página Web</h1>
+        <p>Ésta es mi primer página Web</p>
+        <nav> 
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Acerca de</h2>
+            <p>Bienvenido a mi página web. Aquí encontrarás información interesante </p>
+        </section>
+        <section>
+            <h2>Artículo 1</h2>
+            <article>
+                <h3>Título del artículo 1</h3>
+                <p>Contenido del artículo 1...</p>
+            </article>
+        </section>
+        <section>
+            <h2>Contacto</h2>
+            <h3>Puedes ponerte en contacto conmigo a través del siguiente formulario:</h3>
+            <form>
+                <p<input type="text" placeholder="Nombre"></p>
+                <p<input type="email" placeholder="Correo electrónico"></p>
+                <p<textarea placeholder="Mensaje"></textarea></p>
+                <p<input type="submint" value="Enviar">
+                <input type="reset" value="Borrar"></p>
+            </form>
+        </section>
+    </main>
+<footer>
+    <p>Derechos de autor &copy; 2023 Mipágina Web. Todos los derechos 
+        reservados</p>
+</footer>
+</body>
+</html>
